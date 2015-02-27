@@ -1,0 +1,68 @@
+ INFO [main] 2013-02-11 16:18:34,784 ? (line ?) output reducer type: filesystem
+ INFO [main] 2013-02-11 16:18:36,209 JobClient.java (line 1350) Running job: job_201302041749_0160
+ INFO [main] 2013-02-11 16:18:37,212 JobClient.java (line 1363)  map 0% reduce 0%
+ INFO [main] 2013-02-11 16:18:49,247 JobClient.java (line 1363)  map 3% reduce 0%
+ INFO [main] 2013-02-11 16:18:50,255 JobClient.java (line 1363)  map 21% reduce 0%
+ INFO [main] 2013-02-11 16:18:51,264 JobClient.java (line 1363)  map 27% reduce 0%
+ INFO [main] 2013-02-11 16:18:56,287 JobClient.java (line 1363)  map 29% reduce 0%
+ INFO [main] 2013-02-11 16:18:57,291 JobClient.java (line 1363)  map 32% reduce 0%
+ INFO [main] 2013-02-11 16:18:58,295 JobClient.java (line 1363)  map 43% reduce 0%
+ INFO [main] 2013-02-11 16:18:59,298 JobClient.java (line 1363)  map 51% reduce 0%
+ INFO [main] 2013-02-11 16:19:00,301 JobClient.java (line 1363)  map 54% reduce 0%
+ INFO [main] 2013-02-11 16:19:01,307 JobClient.java (line 1363)  map 54% reduce 10%
+ INFO [main] 2013-02-11 16:19:03,319 JobClient.java (line 1363)  map 55% reduce 10%
+ INFO [main] 2013-02-11 16:19:04,322 JobClient.java (line 1363)  map 58% reduce 11%
+ INFO [main] 2013-02-11 16:19:05,325 JobClient.java (line 1363)  map 60% reduce 11%
+ INFO [main] 2013-02-11 16:19:06,329 JobClient.java (line 1363)  map 70% reduce 11%
+ INFO [main] 2013-02-11 16:19:07,334 JobClient.java (line 1363)  map 76% reduce 13%
+ INFO [main] 2013-02-11 16:19:08,337 JobClient.java (line 1363)  map 79% reduce 13%
+ INFO [main] 2013-02-11 16:19:09,340 JobClient.java (line 1363)  map 81% reduce 13%
+ INFO [main] 2013-02-11 16:19:10,343 JobClient.java (line 1363)  map 84% reduce 18%
+ INFO [main] 2013-02-11 16:19:11,346 JobClient.java (line 1363)  map 85% reduce 18%
+ INFO [main] 2013-02-11 16:19:12,348 JobClient.java (line 1363)  map 90% reduce 18%
+ INFO [main] 2013-02-11 16:19:13,352 JobClient.java (line 1363)  map 96% reduce 22%
+ INFO [main] 2013-02-11 16:19:14,355 JobClient.java (line 1363)  map 99% reduce 22%
+ INFO [main] 2013-02-11 16:19:15,357 JobClient.java (line 1363)  map 100% reduce 22%
+ INFO [main] 2013-02-11 16:19:16,359 JobClient.java (line 1363)  map 100% reduce 25%
+ INFO [main] 2013-02-11 16:19:19,364 JobClient.java (line 1363)  map 100% reduce 32%
+ INFO [main] 2013-02-11 16:19:22,369 JobClient.java (line 1363)  map 100% reduce 33%
+ INFO [main] 2013-02-11 16:19:25,373 JobClient.java (line 1363)  map 100% reduce 74%
+ INFO [main] 2013-02-11 16:19:28,377 JobClient.java (line 1363)  map 100% reduce 85%
+ INFO [main] 2013-02-11 16:19:31,381 JobClient.java (line 1363)  map 100% reduce 96%
+ INFO [main] 2013-02-11 16:19:34,385 JobClient.java (line 1363)  map 100% reduce 100%
+ INFO [main] 2013-02-11 16:19:34,387 JobClient.java (line 1418) Job complete: job_201302041749_0160
+ INFO [main] 2013-02-11 16:19:34,403 Counters.java (line 589) Counters: 29
+ INFO [main] 2013-02-11 16:19:34,403 Counters.java (line 591)   Job Counters 
+ INFO [main] 2013-02-11 16:19:34,403 Counters.java (line 593)     Launched reduce tasks=1
+ INFO [main] 2013-02-11 16:19:34,403 Counters.java (line 593)     SLOTS_MILLIS_MAPS=1825496
+ INFO [main] 2013-02-11 16:19:34,403 Counters.java (line 593)     Total time spent by all reduces waiting after reserving slots (ms)=0
+ INFO [main] 2013-02-11 16:19:34,403 Counters.java (line 593)     Total time spent by all maps waiting after reserving slots (ms)=0
+ INFO [main] 2013-02-11 16:19:34,404 Counters.java (line 593)     Rack-local map tasks=12
+ INFO [main] 2013-02-11 16:19:34,404 Counters.java (line 593)     Launched map tasks=233
+ INFO [main] 2013-02-11 16:19:34,404 Counters.java (line 593)     Data-local map tasks=221
+ INFO [main] 2013-02-11 16:19:34,404 Counters.java (line 593)     SLOTS_MILLIS_REDUCES=43965
+ INFO [main] 2013-02-11 16:19:34,404 Counters.java (line 591)   File Output Format Counters 
+ INFO [main] 2013-02-11 16:19:34,404 Counters.java (line 593)     Bytes Written=8
+ INFO [main] 2013-02-11 16:19:34,404 Counters.java (line 591)   FileSystemCounters
+ INFO [main] 2013-02-11 16:19:34,405 Counters.java (line 593)     FILE_BYTES_READ=393777810
+ INFO [main] 2013-02-11 16:19:34,405 Counters.java (line 593)     HDFS_BYTES_READ=32170
+ INFO [main] 2013-02-11 16:19:34,405 Counters.java (line 593)     FILE_BYTES_WRITTEN=793338291
+ INFO [main] 2013-02-11 16:19:34,405 Counters.java (line 591)   File Input Format Counters 
+ INFO [main] 2013-02-11 16:19:34,405 Counters.java (line 593)     Bytes Read=0
+ INFO [main] 2013-02-11 16:19:34,405 Counters.java (line 591)   Map-Reduce Framework
+ INFO [main] 2013-02-11 16:19:34,405 Counters.java (line 593)     Map output materialized bytes=393779178
+ INFO [main] 2013-02-11 16:19:34,406 Counters.java (line 593)     Map input records=16000000
+ INFO [main] 2013-02-11 16:19:34,406 Counters.java (line 593)     Reduce shuffle bytes=393779178
+ INFO [main] 2013-02-11 16:19:34,406 Counters.java (line 593)     Spilled Records=32000000
+ INFO [main] 2013-02-11 16:19:34,406 Counters.java (line 593)     Map output bytes=361777780
+ INFO [main] 2013-02-11 16:19:34,406 Counters.java (line 593)     CPU time spent (ms)=982590
+ INFO [main] 2013-02-11 16:19:34,406 Counters.java (line 593)     Total committed heap usage (bytes)=47363588096
+ INFO [main] 2013-02-11 16:19:34,406 Counters.java (line 593)     Combine input records=0
+ INFO [main] 2013-02-11 16:19:34,407 Counters.java (line 593)     SPLIT_RAW_BYTES=32170
+ INFO [main] 2013-02-11 16:19:34,407 Counters.java (line 593)     Reduce input records=16000000
+ INFO [main] 2013-02-11 16:19:34,407 Counters.java (line 593)     Reduce input groups=16000000
+ INFO [main] 2013-02-11 16:19:34,407 Counters.java (line 593)     Combine output records=0
+ INFO [main] 2013-02-11 16:19:34,407 Counters.java (line 593)     Physical memory (bytes) snapshot=58864160768
+ INFO [main] 2013-02-11 16:19:34,407 Counters.java (line 593)     Reduce output records=0
+ INFO [main] 2013-02-11 16:19:34,407 Counters.java (line 593)     Virtual memory (bytes) snapshot=134892453888
+ INFO [main] 2013-02-11 16:19:34,407 Counters.java (line 593)     Map output records=16000000

@@ -1,0 +1,39 @@
+# Configuration of the "dfs" context for null
+04.
+#dfs.class=org.apache.hadoop.metrics.spi.NullContext
+05.
+ 
+06.
+# Configuration of the "dfs" context for file
+07.
+#dfs.class=org.apache.hadoop.metrics.file.FileContext
+08.
+#dfs.period=10
+09.
+#dfs.fileName=/tmp/dfsmetrics.log
+10.
+ 
+11.
+# Configuration of the "dfs" context for ganglia
+12.
+dfs.class=org.apache.hadoop.metrics.ganglia.GangliaContext31
+13.
+dfs.period=10
+14.
+dfs.servers=Master:8650
+15.
+ 
+16.
+# Configuration of the "dfs" context for /metrics
+17.
+#dfs.class=org.apache.hadoop.metrics.spi.NoEmitMetricsContext
+18.
+ 
+19.
+ 
+20.
+# Configuration of the "mapred" context for null
+21.
+#mapred.class=org.apache.hadoop.metrics.spi.NullContext
+22.
+ 

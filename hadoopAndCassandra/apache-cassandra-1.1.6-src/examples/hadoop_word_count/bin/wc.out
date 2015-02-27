@@ -1,0 +1,133 @@
+ INFO [main] 2013-04-29 17:09:38,901 ? (line ?) output reducer type: cassandra
+ INFO [main] 2013-04-29 17:09:40,541 JobClient.java (line 1350) Running job: job_201304291523_0014
+ INFO [main] 2013-04-29 17:09:41,545 JobClient.java (line 1363)  map 0% reduce 0%
+ INFO [main] 2013-04-29 17:09:52,581 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000040_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:52,650 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000043_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:52,682 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000049_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:52,714 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000052_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:52,748 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000061_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:52,781 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000065_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:52,815 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000066_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:52,848 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000067_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:53,884 JobClient.java (line 1363)  map 3% reduce 0%
+ INFO [main] 2013-04-29 17:09:54,890 JobClient.java (line 1363)  map 13% reduce 0%
+ INFO [main] 2013-04-29 17:09:55,894 JobClient.java (line 1363)  map 14% reduce 0%
+ INFO [main] 2013-04-29 17:09:56,899 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000018_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:57,345 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000010_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:57,727 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000012_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:58,956 JobClient.java (line 1363)  map 16% reduce 0%
+ INFO [main] 2013-04-29 17:09:58,958 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000000_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:59,302 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000001_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:59,522 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000004_0, Status : FAILED
+ INFO [main] 2013-04-29 17:09:59,836 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000008_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:00,102 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000016_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:02,373 JobClient.java (line 1363)  map 21% reduce 0%
+ INFO [main] 2013-04-29 17:10:03,376 JobClient.java (line 1363)  map 28% reduce 0%
+ INFO [main] 2013-04-29 17:10:04,380 JobClient.java (line 1363)  map 31% reduce 0%
+ INFO [main] 2013-04-29 17:10:04,382 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000085_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:04,459 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000087_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:04,518 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000090_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:04,564 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000091_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:05,601 JobClient.java (line 1363)  map 32% reduce 0%
+ INFO [main] 2013-04-29 17:10:06,607 JobClient.java (line 1363)  map 33% reduce 6%
+ INFO [main] 2013-04-29 17:10:07,609 JobClient.java (line 1363)  map 34% reduce 6%
+ INFO [main] 2013-04-29 17:10:07,611 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000089_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:08,879 JobClient.java (line 1363)  map 36% reduce 6%
+ INFO [main] 2013-04-29 17:10:08,881 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000092_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:09,089 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000094_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:09,410 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000098_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:09,684 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000099_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:09,985 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000097_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:10,296 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000100_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:10,538 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000102_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:11,779 JobClient.java (line 1363)  map 46% reduce 11%
+ INFO [main] 2013-04-29 17:10:11,781 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000142_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:11,819 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000143_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:11,857 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000144_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:11,896 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000146_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:12,933 JobClient.java (line 1363)  map 48% reduce 11%
+ INFO [main] 2013-04-29 17:10:14,941 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000089_1, Status : FAILED
+ INFO [main] 2013-04-29 17:10:14,981 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000147_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:15,020 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000148_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:15,060 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000092_1, Status : FAILED
+ INFO [main] 2013-04-29 17:10:16,097 JobClient.java (line 1363)  map 50% reduce 11%
+ INFO [main] 2013-04-29 17:10:16,099 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000085_1, Status : FAILED
+ INFO [main] 2013-04-29 17:10:16,363 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000154_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:16,470 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000156_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:16,543 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000160_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:16,658 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000161_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:16,723 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000094_1, Status : FAILED
+ INFO [main] 2013-04-29 17:10:17,872 JobClient.java (line 1363)  map 51% reduce 11%
+ INFO [main] 2013-04-29 17:10:17,874 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000098_1, Status : FAILED
+ INFO [main] 2013-04-29 17:10:18,017 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000099_1, Status : FAILED
+ INFO [main] 2013-04-29 17:10:18,259 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000180_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:18,315 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000181_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:19,359 JobClient.java (line 1363)  map 56% reduce 16%
+ INFO [main] 2013-04-29 17:10:19,363 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000186_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:19,431 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000139_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:19,759 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000189_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:20,829 JobClient.java (line 1363)  map 63% reduce 16%
+ INFO [main] 2013-04-29 17:10:20,831 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000151_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:21,069 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000150_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:21,329 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000153_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:22,561 JobClient.java (line 1363)  map 66% reduce 16%
+ INFO [main] 2013-04-29 17:10:22,564 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000152_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:22,849 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000155_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:23,149 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000157_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:23,435 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000158_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:24,722 JobClient.java (line 1363)  map 67% reduce 21%
+ INFO [main] 2013-04-29 17:10:24,724 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000089_2, Status : FAILED
+ INFO [main] 2013-04-29 17:10:24,859 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000147_1, Status : FAILED
+ INFO [main] 2013-04-29 17:10:25,123 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000092_2, Status : FAILED
+ INFO [main] 2013-04-29 17:10:25,258 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000190_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:25,294 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000192_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:25,333 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000196_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:25,372 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000198_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:26,410 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000148_1, Status : FAILED
+ INFO [main] 2013-04-29 17:10:27,624 JobClient.java (line 1363)  map 72% reduce 21%
+ INFO [main] 2013-04-29 17:10:27,626 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000098_2, Status : FAILED
+ INFO [main] 2013-04-29 17:10:27,776 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000094_2, Status : FAILED
+ INFO [main] 2013-04-29 17:10:27,913 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000099_2, Status : FAILED
+ INFO [main] 2013-04-29 17:10:28,098 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000156_1, Status : FAILED
+ INFO [main] 2013-04-29 17:10:28,285 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000201_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:28,319 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000199_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:29,355 JobClient.java (line 1363)  map 74% reduce 21%
+ INFO [main] 2013-04-29 17:10:29,357 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000203_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:29,390 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000204_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:29,422 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000161_1, Status : FAILED
+ INFO [main] 2013-04-29 17:10:29,455 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000157_1, Status : FAILED
+ INFO [main] 2013-04-29 17:10:29,497 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000158_1, Status : FAILED
+ INFO [main] 2013-04-29 17:10:29,530 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000212_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:29,564 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000213_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:29,597 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000214_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:29,627 JobClient.java (line 1392) Task Id : attempt_201304291523_0014_m_000215_0, Status : FAILED
+ INFO [main] 2013-04-29 17:10:29,659 JobClient.java (line 1418) Job complete: job_201304291523_0014
+ INFO [main] 2013-04-29 17:10:29,680 Counters.java (line 589) Counters: 24
+ INFO [main] 2013-04-29 17:10:29,680 Counters.java (line 591)   Job Counters 
+ INFO [main] 2013-04-29 17:10:29,680 Counters.java (line 593)     Launched reduce tasks=1
+ INFO [main] 2013-04-29 17:10:29,680 Counters.java (line 593)     SLOTS_MILLIS_MAPS=2667187
+ INFO [main] 2013-04-29 17:10:29,681 Counters.java (line 593)     Total time spent by all reduces waiting after reserving slots (ms)=0
+ INFO [main] 2013-04-29 17:10:29,681 Counters.java (line 593)     Total time spent by all maps waiting after reserving slots (ms)=0
+ INFO [main] 2013-04-29 17:10:29,681 Counters.java (line 593)     Rack-local map tasks=51
+ INFO [main] 2013-04-29 17:10:29,681 Counters.java (line 593)     Launched map tasks=319
+ INFO [main] 2013-04-29 17:10:29,681 Counters.java (line 593)     Data-local map tasks=268
+ INFO [main] 2013-04-29 17:10:29,682 Counters.java (line 593)     SLOTS_MILLIS_REDUCES=35969
+ INFO [main] 2013-04-29 17:10:29,682 Counters.java (line 593)     Failed map tasks=1
+ INFO [main] 2013-04-29 17:10:29,682 Counters.java (line 591)   FileSystemCounters
+ INFO [main] 2013-04-29 17:10:29,682 Counters.java (line 593)     HDFS_BYTES_READ=29809
+ INFO [main] 2013-04-29 17:10:29,682 Counters.java (line 593)     FILE_BYTES_WRITTEN=4631295
+ INFO [main] 2013-04-29 17:10:29,682 Counters.java (line 591)   File Input Format Counters 
+ INFO [main] 2013-04-29 17:10:29,683 Counters.java (line 593)     Bytes Read=0
+ INFO [main] 2013-04-29 17:10:29,683 Counters.java (line 591)   Map-Reduce Framework
+ INFO [main] 2013-04-29 17:10:29,683 Counters.java (line 593)     Map output materialized bytes=4168
+ INFO [main] 2013-04-29 17:10:29,683 Counters.java (line 593)     Combine output records=0
+ INFO [main] 2013-04-29 17:10:29,683 Counters.java (line 593)     Map input records=12198330
+ INFO [main] 2013-04-29 17:10:29,684 Counters.java (line 593)     Physical memory (bytes) snapshot=43950133248
+ INFO [main] 2013-04-29 17:10:29,684 Counters.java (line 593)     Spilled Records=124
+ INFO [main] 2013-04-29 17:10:29,684 Counters.java (line 593)     Map output bytes=2816
+ INFO [main] 2013-04-29 17:10:29,684 Counters.java (line 593)     CPU time spent (ms)=612900
+ INFO [main] 2013-04-29 17:10:29,685 Counters.java (line 593)     Total committed heap usage (bytes)=36165255168
+ INFO [main] 2013-04-29 17:10:29,685 Counters.java (line 593)     Virtual memory (bytes) snapshot=103371362304
+ INFO [main] 2013-04-29 17:10:29,685 Counters.java (line 593)     Combine input records=0
+ INFO [main] 2013-04-29 17:10:29,685 Counters.java (line 593)     Map output records=124
+ INFO [main] 2013-04-29 17:10:29,685 Counters.java (line 593)     SPLIT_RAW_BYTES=29809

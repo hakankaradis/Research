@@ -1,0 +1,7 @@
+create keyspace LogData with placement_strategy ='org.apache.cassandra.locator.SimpleStrategy' and strategy_options ={replication_factor:4};
+use LogData;
+create column family User with column_type = 'Standard' and comparator = 'UTF8Type';
+create column family output with column_type = 'Standard' and comparator = 'UTF8Type';
+
+list User;
+

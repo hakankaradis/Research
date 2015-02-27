@@ -1,0 +1,3 @@
+#!/bin/bash +vx
+
+./command nodelist "hostname; rm -r /tmp/word_count*"

@@ -1,0 +1,24 @@
+CASSANDRA WORDCOUNT SOURCE FILES
+
+WordCount.java.CPUI -> CPU Intensive (Fibonacci(23)) and read intensive
+WordCount.java.MEMI -> Memory Intensive(Araylist add(44char+counter)) and read intensive
+WordCount.java.ReqW -> Read Equal Write
+WordCount.java.RgtW -> Read intensive filtered by //if(str.endsWith("00000"))
+WordCount.java.WgtR -> Write intensive //concats string 10 times
+
+Comments:
+
+//output column family on Cassandra when Cassandra used as reducer
+static final String OUTPUT_COLUMN_FAMILY = "output";
+
+//output path when hadoop used as reducer
+//we used shared disk (home) because when we used tmp It was generating output on a random machine.
+private static final String OUTPUT_PATH_PREFIX = "~/wordcount_output";
+
+
+//ByteOrderedPartitioner or RandomPartitioner
+ConfigHelper.setInputPartitioner(job.getConfiguration(), "RandomPartitioner");
+ConfigHelper.setOutputPartitioner(job.getConfiguration(), "RandomPartitioner");
+
+//See map function for the RgtW WgtR CPUI and MEMI changes
+

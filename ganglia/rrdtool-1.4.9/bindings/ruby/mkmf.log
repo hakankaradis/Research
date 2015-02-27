@@ -1,0 +1,41 @@
+have_library: checking for rrd_create() in -lrrd... -------------------- yes
+
+"gcc -o conftest -I/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/include/ruby-1.9.1/x86_64-linux -I/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/include/ruby-1.9.1/ruby/backward -I/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/include/ruby-1.9.1 -I. -I../../src     -O3 -ggdb -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration conftest.c  -L. -L/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/lib -Wl,-R/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/lib -L../../src/.libs -L.  -rdynamic -Wl,-export-dynamic -Wl,--rpath -Wl,/lib     -Wl,-R -Wl,/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/lib -L/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/lib -lruby-static  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -o conftest -I/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/include/ruby-1.9.1/x86_64-linux -I/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/include/ruby-1.9.1/ruby/backward -I/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/include/ruby-1.9.1 -I. -I../../src     -O3 -ggdb -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration conftest.c  -L. -L/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/lib -Wl,-R/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/lib -L../../src/.libs -L.  -rdynamic -Wl,-export-dynamic -Wl,--rpath -Wl,/lib     -Wl,-R -Wl,/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/lib -L/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/lib -lruby-static -lrrd  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:5:53: error: ‘rrd_create’ undeclared (first use in this function)
+ int t() { void ((*volatile p)()); p = (void ((*)()))rrd_create; return 0; }
+                                                     ^
+conftest.c:5:53: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { void ((*volatile p)()); p = (void ((*)()))rrd_create; return 0; }
+/* end */
+
+"gcc -o conftest -I/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/include/ruby-1.9.1/x86_64-linux -I/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/include/ruby-1.9.1/ruby/backward -I/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/include/ruby-1.9.1 -I. -I../../src     -O3 -ggdb -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration conftest.c  -L. -L/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/lib -Wl,-R/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/lib -L../../src/.libs -L.  -rdynamic -Wl,-export-dynamic -Wl,--rpath -Wl,/lib     -Wl,-R -Wl,/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/lib -L/home/kchiu/packages/linux-x86_64/ruby-1.9.3-p125/lib -lruby-static -lrrd  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:5:1: warning: implicit declaration of function ‘rrd_create’ [-Wimplicit-function-declaration]
+ int t() { rrd_create(); return 0; }
+ ^
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { rrd_create(); return 0; }
+/* end */
+
+--------------------
+

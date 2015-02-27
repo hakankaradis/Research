@@ -1,0 +1,11 @@
+#!/bin/bash +vx
+
+#command slaves.txt "rm a/var/file"
+
+for machines in `cat $1`
+
+do
+
+ssh $machines "$2"
+
+done
